@@ -53,6 +53,46 @@ footer {
     width: 100%;
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    aside {
+        width: 150px; /* Narrower sidebar for smaller screens */
+    }
+
+    main {
+        margin-left: 150px; /* Adjust margin to match the new sidebar width */
+        padding: 10px; /* Adjust padding for better readability */
+    }
+
+    .profile-pic {
+        width: 80px; /* Slightly smaller profile picture */
+        height: 80px;
+    }
+
+    .linkedin-logo {
+        width: 25px; /* Slightly smaller LinkedIn logo */
+    }
+}
+
+@media (max-width: 480px) {
+    aside {
+        width: 100%; /* Full width sidebar on very small screens */
+        height: auto; /* Auto height for better flow */
+        position: static; /* Allow natural document flow */
+    }
+
+    main {
+        margin-left: 0; /* Remove the offset for the main content */
+        padding: 10px;
+        width: auto; /* Auto width for full screen usage */
+    }
+
+    footer {
+        position: relative; /* Footer flows naturally at the bottom */
+    }
+}
+
+
 
 
 
