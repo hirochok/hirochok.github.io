@@ -1,86 +1,54 @@
 body {
     display: flex;
     flex-direction: row;
-    font-family: 'Times New Roman', serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* Plain white */
-    color: #333; /* Dark grey text for readability */
 }
 
-header h1, footer {
-    text-align: center;
-    margin: 0;
-    font-family: 'Georgia', serif; /* Adds a touch of classic styling to titles */
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a, footer a {
-    color: #333; /* Dark grey for links */
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 20px 0;
-}
-
-footer {
-    background: #fff; /* Plain white */
-    color: #333;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Sidebar styles */
 aside {
-    width: 250px; /* Adjust based on your preference */
+    width: 250px; /* Adjust as necessary */
+    position: fixed; /* Keeps the sidebar in place while scrolling */
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal overflow */
+    overflow-y: auto; /* Enables vertical scroll if content overflows */
+    background-color: #fff; /* Or any other color */
     padding: 20px;
-    background-color: #fff; /* Plain white */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
-    height: 100vh; /* Full height */
-    position: fixed; /* Stay in place on scroll */
 }
 
 .profile-pic {
-    width: 100px; /* Adjust based on your preference */
-    height: auto;
-    border-radius: 50%; /* Circular photo */
+    width: 100px;
+    border-radius: 50%;
     display: block;
-    margin: 0 auto 10px; /* Center align and add bottom margin */
+    margin-bottom: 20px; /* Adds some space below the image */
 }
 
 .linkedin-logo {
-    width: 30px; /* LinkedIn logo size */
-    height: auto;
-    display: block;
-    margin-top: 10px;
+    width: 30px; /* Adjust size as needed */
+    margin-top: 10px; /* Adds some space above the LinkedIn logo */
 }
 
 main {
-    margin-left: 250px; /* Adjust the margin to match the sidebar width */
-    width: calc(100% - 250px); /* Adjust main content width */
+    margin-left: 250px; /* Should match the width of the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjusts the width of the main content area */
     box-sizing: border-box;
 }
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    position: relative; /* Adjusted for the flow of the document */
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f2f2f2; /* Or any other color */
+}
+
 
 
 
