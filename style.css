@@ -43,13 +43,14 @@ main {
 }
 
 footer {
+    background: #fff; /* Plain white */
+    color: #333; /* Consistent with the body text color */
     text-align: center;
-    padding: 10px 0;
-    background-color: #f2f2f2; /* Footer background color */
-    position: relative; /* Ensures footer is at the end of the content */
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    clear: both; /* Ensures footer doesn't overlap with floated elements */
-    margin-top: auto; /* Pushes the footer to the bottom */
 }
 
 
