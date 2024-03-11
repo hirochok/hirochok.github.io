@@ -1,22 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    background-color: #fff; /* Plain white */
+    color: #333; /* Dark grey text for readability */
 }
 
 header {
-    background: #011F5B; /* Deep Blue */
-    color: #fff;
+    background: #fff; /* Plain white */
+    color: #333; /* Match body text color for consistency */
     padding-top: 2rem;
     min-height: 70px;
-    border-bottom: #990000 3px solid; /* Dark Red */
+    border-bottom: 3px solid #333; /* Simple, elegant dark grey border */
 }
 
 header h1, footer {
     text-align: center;
     margin: 0;
+    font-family: 'Georgia', serif; /* Adds a touch of classic styling to titles */
 }
 
 nav {
@@ -35,7 +37,7 @@ nav ul li {
 }
 
 nav ul li a, footer a {
-    color: #fff;
+    color: #333; /* Dark grey for links */
     text-decoration: none;
 }
 
@@ -45,8 +47,8 @@ section {
 }
 
 footer {
-    background: #011F5B; /* Deep Blue */
-    color: #fff;
+    background: #fff; /* Plain white */
+    color: #333; /* Consistent with the body text color */
     text-align: center;
     padding: 10px;
     position: fixed;
