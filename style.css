@@ -9,15 +9,6 @@ body {
     color: #333; /* Dark grey text for readability */
 }
 
-header {
-    background: #fff; /* Plain white */
-    color: #333; /* Match body text color for consistency */
-    padding-top: 2rem;
-    min-height: 70px;
-    border-bottom: 3px solid #333; /* Simple, elegant dark grey border */
-    width: 100%;
-}
-
 header h1, footer {
     text-align: center;
     margin: 0;
