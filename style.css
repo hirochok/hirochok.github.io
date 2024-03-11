@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    flex: 1; /* Adjust the width of the sidebar */
+    background-color: #f2f2f2; /* Sidebar background color */
+    padding: 20px; /* Sidebar padding */
+    height: 100vh; /* Full height */
+}
+
+.main-content {
+    flex: 3; /* Adjust the width of the main content */
+    padding: 20px; /* Main content padding */
+}
