@@ -1,4 +1,6 @@
 body {
+    display: flex;
+    flex-direction: row;
     font-family: 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
@@ -13,6 +15,7 @@ header {
     padding-top: 2rem;
     min-height: 70px;
     border-bottom: 3px solid #333; /* Simple, elegant dark grey border */
+    width: 100%;
 }
 
 header h1, footer {
@@ -48,7 +51,7 @@ section {
 
 footer {
     background: #fff; /* Plain white */
-    color: #333; /* Consistent with the body text color */
+    color: #333;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -56,5 +59,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Sidebar styles */
+aside {
+    width: 250px; /* Adjust based on your preference */
+    padding: 20px;
+    background-color: #fff; /* Plain white */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    height: 100vh; /* Full height */
+    position: fixed; /* Stay in place on scroll */
+}
+
+.profile-pic {
+    width: 100px; /* Adjust based on your preference */
+    height: auto;
+    border-radius: 50%; /* Circular photo */
+    display: block;
+    margin: 0 auto 10px; /* Center align and add bottom margin */
+}
+
+.linkedin-logo {
+    width: 30px; /* LinkedIn logo size */
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+
+main {
+    margin-left: 250px; /* Adjust the margin to match the sidebar width */
+    width: calc(100% - 250px); /* Adjust main content width */
+    box-sizing: border-box;
+}
+
 
 
