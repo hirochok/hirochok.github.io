@@ -7,7 +7,7 @@ body {
 }
 
 aside {
-    width: 250px; /* Sidebar width */
+    width: 330px; /* Sidebar width */
     height: 100vh; /* Full viewport height */
     position: fixed; /* Stay in place on scroll */
     left: 0;
@@ -19,7 +19,7 @@ aside {
 }
 
 main {
-    margin-left: 250px; /* Offset main content to the right by the sidebar's width */
+    margin-left: 330px; /* Offset main content to the right by the sidebar's width */
     flex-grow: 1; /* Allow main content to fill the available space */
     padding: 20px;
 }
